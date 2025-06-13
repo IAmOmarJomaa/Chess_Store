@@ -1,0 +1,71 @@
+/* Form Styles */
+form {
+  background-color: #2c2c2c;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+
+form input[type="text"],
+form textarea,
+form select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #444;
+  color: #fff;
+}
+
+form input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #444;
+  color: #fff;
+}
+
+form textarea {
+  height: 150px;
+}
+
+form button[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: block;
+  margin: 0 auto;
+}
+
+form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* File Input Styles */
+form input[type="file"] {
+  margin-bottom: 15px;
+}
+
+/* Horizontal Line Styles */
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+  margin: 20px 0;
+}

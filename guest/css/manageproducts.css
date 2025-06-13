@@ -1,0 +1,129 @@
+/* Manage Products Page Specific Styles */
+body {
+ padding-bottom: 150px;
+ /* Adjust as needed */
+}
+
+/* Form Styles */
+form {
+ background-color: #2c2c2c;
+ padding: 10px;
+ border-radius: 8px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ margin: 20px auto;
+ max-width: 400px;
+ /* Reduced max-width */
+}
+
+form label {
+ display: block;
+ margin-bottom: 8px;
+ /* Reduced margin */
+ color: #ffcc00;
+}
+/* Form Styles */
+form select {
+ width: calc(70% - 20px);
+ padding: 8px;
+ margin-bottom: 12px;
+ border-radius: 5px;
+ border: none;
+ background-color: #444;
+ color: #fff;
+}
+
+form select option {
+ background-color: #444;
+ color: #fff;
+}
+
+form input[type="text"],
+form textarea,
+form input[type="number"] {
+ width: calc(70% - 20px);
+ /* Adjusted width */
+ padding: 8px;
+ margin-bottom: 12px;
+ /* Reduced margin */
+ border-radius: 5px;
+ border: none;
+ background-color: #444;
+ color: #fff;
+}
+
+form button[type="submit"] {
+ padding: 8px 16px;
+ border: none;
+ border-radius: 5px;
+ background-color: #4CAF50;
+ color: white;
+ font-size: 1em;
+ cursor: pointer;
+ transition: background-color 0.3s;
+ display: inline-block;
+ margin-left: 10px;
+}
+
+form button[type="submit"]:hover {
+ background-color: #45a049;
+}
+
+/* Table Styles */
+table {
+ border-collapse: collapse;
+ width: 80%;
+ /* Reduced width */
+ margin: 20px auto;
+ /* Center the table */
+}
+
+table th,
+table td {
+ border: 1px solid #ddd;
+ padding: 6px;
+ /* Reduced padding */
+ text-align: left;
+}
+
+table th {
+ background-color: #333;
+ color: white;
+}
+
+table tr:nth-child(even) {
+ background-color: white;
+ /* White background for even rows */
+ color: black;
+ /* Black text color for even rows */
+}
+
+table tr:nth-child(odd) {
+ background-color: hwb(0 21% 76%);
+ /* Darker background for odd rows */
+ color: white;
+ /* White text color for odd rows */
+}
+
+/* Button Styles */
+table button {
+ padding: 6px 12px;
+ border: none;
+ border-radius: 5px;
+ background-color: #333;
+ color: white;
+ font-size: 0.9em;
+ cursor: pointer;
+ transition: background-color 0.3s;
+}
+
+table button:hover {
+ background-color: #444;
+}
+
+/* Horizontal Line Styles */
+hr {
+ border: none;
+ height: 1px;
+ background-color: #ddd;
+ margin: 20px 0;
+}

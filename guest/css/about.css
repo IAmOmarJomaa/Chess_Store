@@ -1,0 +1,41 @@
+/* Custom Styles for About Us Content */
+
+/* About Section Styles */
+.about-section {
+ overflow-x: hidden;
+ /* Other styles */
+}
+.about-section {
+ max-width: 800px;
+ margin: 0 auto;
+ padding: 20px;
+ background-color: #333;
+ color: #fff;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-section h2 {
+ font-size: 1.5em;
+ color: #ffcc00;
+ margin-top: 20px;
+}
+
+.about-section p {
+ font-size: 1.1em;
+ line-height: 1.6;
+}
+
+.about-section ul {
+ margin-top: 15px;
+ margin-left: 20px;
+}
+
+.about-section ul li {
+ font-size: 1.1em;
+ margin-bottom: 10px;
+}
+
+.about-section ul li strong {
+ color: #ffcc00;
+}

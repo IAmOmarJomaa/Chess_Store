@@ -1,0 +1,78 @@
+.pagination {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pagination a {
+  color: #ffcc00;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+
+.pagination a.active {
+  background-color: #ffcc00;
+  color: #1a1a1a;
+  border-radius: 5px;
+}
+h2 {
+  color: #ffcc00;
+  margin-top: 10px;
+}
+
+body.loggedin .product-container {
+  display: block;
+}
+
+.product-container {
+  width: 30%;
+  height: 850px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.product {
+  padding-bottom: 20px;
+}
+.product-images {
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  /* Center the child elements horizontally */
+  justify-content: center;
+}
+
+.product-image {
+  display: none;
+  max-width: 100%;
+  /* Ensure the image adjusts its width */
+  max-height: 100%;
+  /* Ensure the image adjusts its height */
+}
+
+.product-image.active {
+  display: block;
+}
+
+/* Add to cart button */
+.button {
+  margin-top: 10px;
+}
+
+.button button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button button:hover {
+  background-color: #45a049;
+}
